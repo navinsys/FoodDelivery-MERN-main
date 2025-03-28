@@ -241,7 +241,7 @@ const Navbar = ({ setOpenAuth, openAuth, currentUser }) => {
             </>
           ) : (
             <>
-              <Button text="Sign In" small onClick={() => setOpenAuth(true)} />
+              <Button text="Sign In" small="true" onClick={() => setOpenAuth(true)} />
             </>
           )}
         </ButtonContainer>
